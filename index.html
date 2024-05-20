@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Metadados do documento -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página -->
+    <title>Thais Silva Souza</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Importação de fontes do Google Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- Menu de navegação fixo -->
+    <nav>
+        <a href="#voltar">Início</a>
+        <a href="#sobremim">Sobre Mim</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portifolio">Portfólio</a>
+        <a href="#contatos">Contato</a>
+    </nav>
+
+    <!-- Container da seção inicial -->
+    <div class="container_inicio" id="voltar">
+        <!-- Container do nome -->
+        <div class="container_nome">
+            <h2 class="meu_nome">Thais Silva Souza</h2>
+            <!-- Subtítulo -->
+            <p class="subtitulo">Desenvolvedora FullStack</p>
+        </div>
+    </div>
+
+    <!-- Container da seção "Sobre mim" -->
+    <div class="container" id="sobremim" style="background-color:#1F1F1F;">
+        <div class="texto" style="color: white;">
+            <!-- Título -->
+            <h1>Sobre mim</h1>
+            <!-- Parágrafo -->
+            <p>
+                Meu nome é Thais, tenho 20 anos e moro no Rio de Janeiro. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas (ADS), uma área que reflete perfeitamente minha paixão por tecnologia. Desde que me lembro, sempre fui fascinada pelo mundo digital, o que me levou a escolher essa carreira. Sou dedicada aos meus estudos e estou sempre em busca de novos conhecimentos e tendências no campo da informática.
+                <br> Um dos hobbies que tenho é sair para comer em restaurantes, sempre que possível. Gosto de conhecer novos lugares e passear pelas belezas que existem ao redor do mundo, como parques, lindas praias, pontos turísticos e shoppings.
+                <br> Em dias menos agitados gosto de maratonar séries na televisão e curtir o aconchego do meu lar junto da família.
+            </p>
+        </div>
+    </div>
+
+    <!-- Container da seção "Formação" -->
+    <div class="container" id="formacao" style="background-color: #fff;">
+        <div class="texto" style="color:black;">
+            <!-- Título -->
+            <h1>Formação</h1>
+            <!-- Parágrafos -->
+            <p>
+                — Análise e Desenvolvimento de Sistemas - Ensino Superior
+                Centro Universitário Internacional(UNINTER)
+                - Jun/2025.
+                <br><br>
+                — Inglês
+                Curso de Inglês Mairo Vergara (CIMV)
+                - Dez/2025.
+                <br><br>
+                — Desenvolvedor Full Stack - Curso profissionalizante
+                Senac e Resilia Educação
+                Carga horária de 528h focadas em programação
+                (HTML5, CSS3, JavaScript, Banco de dados, MySQL, React, Git e GitHub) e Soft Skills
+                - Concluído
+                <br><br>
+                — Pacote Office Intermediário
+                Fundação Bradesco
+                - Concluído
+                <br><br>
+                — HTML5, CSS3 e JavaScript básico
+                Digital Innovation One (DIO)
+                - Concluído
+                <br><br>
+                — Introdução ao Git e GitHub
+                Digital Innovation One (DIO)
+                - Concluído
+                <br><br>
+                — Introdução à Programação e ao Pensamento Computacional
+                Digital Innovation One (DIO)
+                - Concluído
+                <br><br>
+                — Lógica de programação
+                Fundação Bradesco - Concluído
+            </p>
+        </div>
+    </div>
+
+    <!-- Container da seção "Portfólio" -->
+    <div class="container" id="portifolio" style="background-color: #1F1F1F;">
+        <div class="container_nome">
+            <!-- Título -->
+            <h1>Portfólio</h1>
+            <p>Veja aqui alguns dos meus projetos:</p>
+            <!-- Links para os projetos -->
+            <p class="item_link"><a href="https://thaissouza7.github.io/Cadastro_crud/" target="_blank">CADASTRO</a></p>
+            <p class="item_link"><a href="https://thaissouza7.github.io/Restaurante_Origem_Brasileira/index.html" target="_blank">RESTAURANTE</a></p>
+            <p class="item_link"><a href="https://thaissouza7.github.io/criptografia/" target="_blank">CRIPTOGRAFIA</a></p>
+            <p class="item_link"><a href="https://thaissouza7.github.io/Pagina_inicial_rede_social/" target="_blank">RÉPLICA INSTAGRAM</a></p>
+        </div>
+    </div>
+
+    <!-- Container da seção de contatos -->
+    <div class="pagina_contatos" id="contatos">
+        <!-- Título -->
+        <h1 class="titulo_contatos">Contatos</h1>
+
+        <!-- Formulário de contatos -->
+        <form>
+            <!-- Campo de nome -->
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <!-- Campo de e-mail -->
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <!-- Campo de mensagem -->
+            <label for="mensagem">Mensagem:</label><br>
+            <!-- Linhas e colunas do campo de mensagem -->
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+
+            <!-- Botão de envio -->
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+
+</html>
